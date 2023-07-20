@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bewakoof</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://images.bewakoof.com/web/favicon-1635856217.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">
+          <img
+            src="./ic-web-head-hamburger.svg"
+            alt=""
+            id="menu"
+            onclick="openNav()"
+          />
+          <span id="mySidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+              >&times;</a
+            >
+
+            <p style="font-weight: bold; padding-left: 15px">Welcome Guest</p>
+            <a href="" style="color: lightslategray">Login/Sign up</a>
+            <hr />
+            <p
+              style="
+                color: rgb(197, 195, 195);
+                padding-left: 15px;
+                margin-top: 10px;
+              "
+            >
+              Shop in
+            </p>
+            <a href=""
+              >Men
+              <img src="./images/Circle-icon-men--1--1684748735.webp" alt=""
+            /></a>
+            <a href=""
+              >Women
+              <img src="./images/Circle-icon-women--1--1684748736.webp" alt=""
+            /></a>
+            <a href=""
+              >Accessories
+              <img
+                src="./images/Circle-icon-accessories--1--1684748737.webp"
+                alt=""
+            /></a>
+            <a href=""
+              >Official Merch
+              <img
+                src="./images/Circle-icon-character-shop--1--1684748738.webp"
+                alt=""
+            /></a>
+            <a href=""
+              >Teens
+              <img src="./images/Circle-icon-teens--1--1684748735.webp" alt=""
+            /></a>
+            <a href=""
+              >Design of the Week
+              <img src="./images/Circle-icon-DOTW--1--1684748737.webp" alt=""
+            /></a>
+            <a href=""
+              >Specials
+              <img src="./images/Circle-icon-specials-1684824538.webp" alt=""
+            /></a>
+            <a href=""
+              >Customize your own T-Shirt
+              <img
+                src="./images/Circle-icon-customisation--1--1684748736.webp"
+                alt=""
+            /></a>
+            <p
+              style="
+                color: rgb(197, 195, 195);
+                padding-left: 15px;
+                margin-top: 10px;
+              "
+            >
+              Engage
+            </p>
+            <a href="">Vote for Design</a>
+            <a href="">Refer and Earn</a>
+            <a href="">Tribe Membership</a>
+            <p
+              style="
+                color: rgb(197, 195, 195);
+                padding-left: 15px;
+                margin-top: 10px;
+              "
+            >
+              Contact Us
+            </p>
+            <a href="">Help & Support</a>
+            <a href="">Feedback & Suggestion</a>
+            <a href="">Become a Seller</a>
+            <p
+              style="
+                color: rgb(197, 195, 195);
+                padding-left: 15px;
+                margin-top: 10px;
+              "
+            >
+              About Us
+            </p>
+            <a href="">Our Story</a>
+            <a href="">Fanbook</a>
+            <a href="" style="margin-bottom: 110px">Blog</a>
+          </span>
+
+          <img src="./ic-web-head-bwk-primary-logo-eyes.svg" alt="" />
+        </div>
+        <a href=""
+          ><div class="logo">
+            <img src="./ic-desktop-bwkf-trademark-logo.svg" alt="" /></div
+        ></a>
+        <div class="bigRight">
+          <i class="fa-solid fa-magnifying-glass" style="color: #1a1a1a"></i>
+          <input
+            type="text"
+            name=""
+            id=""
+            placeholder="Search by product, category or collection"
+          />
+          <span>|</span>
+          <a href="" style="text-decoration: none; color: gainsboro"
+            ><span style="font-size: 15px; color: black; margin: 10px"
+              >Login</span
+            ></a
+          >
+          <a href=""><img src="./ic-web-head-wishlist.svg" alt="" /></a>
+          <a href=""
+            ><img src="./ic-web-head-cart.svg" alt="" style="margin: 10px"
+          /></a>
+        </div>
+
+        <div class="right">
+          <img src="./ic-web-head-search.svg" alt="" />
+          <img src="./ic-web-head-wishlist.svg" alt="" />
+          <img src="./ic-web-head-cart.svg" alt="" />
+        </div>
+      </nav>
+    </header>
+    <section class="topBanner">
+      <div>
+        <a href=""
+          ><img
+            src="./images/revamp-top-nav-sample-men-1688476743.webp"
+            alt=""
+          />
+          <p>Men</p></a
+        >
+      </div>
+      <div>
+        <a href=""
+          ><img
+            src="./images/revamp-top-nav-sample-women-1688476744.webp"
+            alt=""
+          />
+          <p>Women</p></a
+        >
+      </div>
+      <div>
+        <a href=""
+          ><img
+            src="./images/revamp-top-nav-accessories2-1688480114.webp"
+            alt=""
+          />
+          <p>Accessories</p></a
+        >
+      </div>
+      <div>
+        <a href=""
+          ><img
+            src="./images/revamp-top-nav-samples-MERCH2-1688476746.webp"
+            alt=""
+          />
+          <p>Official Merch</p></a
+        >
+      </div>
+      <div>
+        <a href=""
+          ><img
+            src="./images/revamp-top-nav-samples-air-1688476744.webp"
+            alt=""
+          />
+          <p>Bewakoof Air</p></a
+        >
+      </div>
+      <div>
+        <a href=""
+          ><img
+            src="./images/revamp-top-nav-samples-plus-1688476746.webp"
+            alt=""
+          />
+          <p>Plus Size</p></a
+        >
+      </div>
+      <div>
+        <a href=""
+          ><img
+            src="./images/revamp-top-nav-samples-customise-1688476745.webp"
+            alt=""
+          />
+          <p id="Customization">Customization</p></a
+        >
+      </div>
+      <div>
+        <a href="">
+          <img
+            src="./images/revamp-top-nav-samples-teen-1688560886.webp"
+            alt=""
+          />
+          <p>Teens</p></a
+        >
+      </div>
+      <div>
+        <a href="">
+          <img
+            src="./images/revamp-top-nav-samples-undrdawg-1688476746.webp"
+            alt=""
+          />
+          <p id="Underdawg">Underdawg</p></a
+        >
+      </div>
+    </section>
+
+    <img src="./images/mob-banner-global-shipping.webp" alt="" id="shipping" />
+    <section class="bannerImages">
+      <a href=""
+        ><img src="./images/newbanner-1x1-DressVoyage2-1689572483.webp" alt=""
+      /></a>
+      <a href=""
+        ><img src="./images/newbanner-3x4-GraphicVests1-1689572486.webp" alt=""
+      /></a>
+      <a href=""
+        ><img src="./images/newbanner-1x1-air-1688969469.jpg" alt=""
+      /></a>
+      <a href=""
+        ><img
+          src="./images/STATIC-JULY-utility-cargos--1--1689518616.jpg"
+          alt=""
+      /></a>
+    </section>
+    <section class="categories">
+      <div>
+        <a href=""
+          ><img
+            src="./images/revamp-thumbnails-bestsellers-1687584022.jpg"
+            alt=""
+        /></a>
+        <p>Bestsellers</p>
+      </div>
+      <div>
+        <a href=""
+          ><img
+            src="./images/revamp-thumbnails-new-arrivals-1687584021.jpg"
+            alt=""
+        /></a>
+        <p>New Arrivals</p>
+      </div>
+      <div>
+        <a href=""
+          ><img src="./images/revamp-thumbnails-collab-1687584023.jpg" alt=""
+        /></a>
+        <p>Official Merch</p>
+      </div>
+      <div>
+        <a href=""
+          ><img
+            src="./images/revamp-thumbnails-customisation-1687876283.jpg"
+            alt=""
+        /></a>
+        <p>Customization</p>
+      </div>
+      <div>
+        <a href=""
+          ><img src="./images/revamp-thumbnails-combos-1688382521.gif" alt=""
+        /></a>
+        <p>Combos</p>
+      </div>
+      <div>
+        <a href=""
+          ><img src="./images/revamp-thumbnails-vote-1687584021.jpg" alt=""
+        /></a>
+        <p>Vote for Design</p>
+      </div>
+      <div>
+        <a href=""
+          ><img
+            src="./images/revamp-thumbnails-last-sizes-left-1687435199.webp"
+            alt=""
+        /></a>
+        <p>Last Sizes Left</p>
+      </div>
+      <div>
+        <a href=""
+          ><img src="./images/revamp-thumbnails-plussize-1687584021.jpg" alt=""
+        /></a>
+        <p>Plus Size</p>
+      </div>
+      <div>
+        <a href=""
+          ><img
+            src="./images/revamp-thumbnails-last-sizes-left-1687584024.jpg"
+            alt=""
+        /></a>
+        <p>Coupon Offers</p>
+      </div>
+    </section>
+    <img src="./images/branding-strip-01-1687435438.gif" alt="" id="branding" />
+    <img
+      src="./images/brand-strip-1683780891-1684740361-big.gif"
+      alt=""
+      id="bigBranding"
+    />
+    <p style="font-weight: bolder; margin: 20px 0px 0px 30px" id="dotw">
+      Designs of the Week
+    </p>
+    <div class="dotw">
+      <img
+        src="./images/DOTW-Split-banner-msite-men-1689648162.webp"
+        alt=""
+        style="border-radius: 10px 0px 0px 10px"
+      />
+      <img
+        src="./images/DOTW-Split-banner-msite-women-1689648161.webp"
+        alt=""
+        style="border-radius: 0px 10px 10px 0px"
+      />
+    </div>
+    <div class="bigDotw">
+      <img
+        src="./images/Revised-DOTW-Split-banner-Desktop-Men-1689769399.webp"
+        alt=""
+        style="border-radius: 10px 0px 0px 10px"
+      />
+      <img
+        src="./images/Revised-DOTW-Split-banner-Desktop-Women-1689769400.webp"
+        alt=""
+        style="border-radius: 0px 10px 10px 0px"
+      />
+    </div>
+    <p style="font-weight: bolder; margin: 20px 0px 0px 30px" id="tc">
+      Trending Categories
+    </p>
+    <section class="categoryBox">
+      <a href=""
+        ><img
+          src="./images/category-box-new-D-240x350-oversized-m-1687962517.webp"
+          alt=""
+      /></a>
+
+      <a href=""
+        ><img
+          src="./images/category-box-new-D-240x350-full-sleeve-tshirts-m-1687962516.webp"
+          alt=""
+      /></a>
+
+      <a href=""
+        ><img
+          src="./images/category-box-new-D-240x350-printed-tees-m-1687962518.webp"
+          alt=""
+      /></a>
+
+      <a href=""
+        ><img
+          src="./images/category-box-new-D-240x350-joggers-m-1687962521.webp"
+          alt=""
+      /></a>
+
+      <a href=""
+        ><img
+          src="./images/category-box-new-D-240x350-shorts-m-1687962518.webp"
+          alt=""
+      /></a>
+
+      <a href=""
+        ><img
+          src="./images/category-box-new-D-240x350-vests-m-1687962519.webp"
+          alt=""
+      /></a>
+
+      <a href=""
+        ><img
+          src="./images/category-box-new-D-240x350-boyfriend-tees-w-1687962519.webp"
+          alt=""
+      /></a>
+
+      <a href=""
+        ><img
+          src="./images/category-box-new-D-240x350-joggers-w-1687962521.webp"
+          alt=""
+      /></a>
+
+      <a href=""
+        ><img
+          src="./images/category-box-new-D-240x350-oversized-tees-w-1687962518.webp"
+          alt=""
+      /></a>
+
+      <a href=""
+        ><img
+          src="./images/category-box-new-D-240x350-pyjamas-w-1687962516.webp"
+          alt=""
+      /></a>
+
+      <a href=""
+        ><img
+          src="./images/category-box-new-D-240x350-fashion-tops-w-1687962520.webp"
+          alt=""
+      /></a>
+
+      <a href=""
+        ><img
+          src="./images/category-box-new-D-240x350-dresses-w-1687962520.webp"
+          alt=""
+      /></a>
+    </section>
+
+    <p style="font-weight: bolder; margin: 20px 0px 0px 30px" id="thtbm">
+      Too Hot to be Missed
+    </p>
+    <section class="thtbm">
+      <a href=""
+        ><img src="./images/mid-size-hygiene-revamp-buy3-1689160570.jpg" alt=""
+      /></a>
+      <a href=""
+        ><img
+          src="./images/mid-size-hygiene-revamp-PlainOversized-Common-1689578062.jpg"
+          alt=""
+      /></a>
+      <a href=""
+        ><img
+          src="./images/mid-size-hygiene-revamp-printed-bf-tees-01-1689572486.webp"
+          alt=""
+      /></a>
+      <a href=""
+        ><img
+          src="./images/mid-size-hygiene-revamp-joggersunleashed-1689572489.webp"
+          alt=""
+      /></a>
+    </section>
+
+    <div class="container">
+      <div class="text">
+        <p>Bestsellers</p>
+        <a href="">Explore All</a>
+      </div>
+      <div class="items">
+        <a href="">
+          <div class="box">
+            <img
+              src="./images/create-good-stories-half-sleeve-t-shirt-black-283013-1655749405-1.webp"
+              alt=""
+            />
+            <span class="overlay">Buy 3 for 999</span>
+            <p
+              style="
+                font-weight: bolder;
+                padding: 5px 0px 0px 10px;
+                font-size: 12px;
+              "
+            >
+              Bewakoof®
+            </p>
+            <p class="name">
+              Men's Black Create Good Stories Typography T-shirt
+            </p>
+            <p class="price">
+              <span style="font-weight: bolder; color: black; font-size: 10px"
+                >₹499</span
+              >
+              <span
+                style="
+                  color: gray;
+                  text-decoration: line-through;
+                  font-size: 8px;
+                "
+                >₹1099</span
+              >
+              <span style="color: green; font-size: 8px">59% OFF</span>
+            </p>
+          </div>
+        </a>
+        <a href="">
+          <div class="box">
+            <img
+              src="./images/martin-garrix-colorful-half-sleeve-t-shirt-203045-1655748440-1.webp"
+              alt=""
+            />
+            <span class="overlay">Buy 3 for 999</span>
+            <p
+              style="
+                font-weight: bolder;
+                padding: 5px 0px 0px 10px;
+                font-size: 12px;
+              "
+            >
+              Bewakoof®
+            </p>
+            <p class="name">
+              Men's Black Martin Garrix Colorful Graphic Printed T-shirt
+            </p>
+            <p class="price">
+              <span style="font-weight: bolder; color: black; font-size: 10px"
+                >₹499</span
+              >
+              <span
+                style="
+                  color: gray;
+                  text-decoration: line-through;
+                  font-size: 8px;
+                "
+                >₹1099</span
+              >
+              <span style="color: green; font-size: 8px">59% OFF</span>
+            </p>
+          </div>
+        </a>
+        <a href="">
+          <div class="box">
+            <img
+              src="./images/men-s-black-feel-most-alive-t-shirt-307093-1655749411-1.webp"
+              alt=""
+            />
+            <span class="overlay">Buy 3 for 999</span>
+            <p
+              style="
+                font-weight: bolder;
+                padding: 5px 0px 0px 10px;
+                font-size: 12px;
+              "
+            >
+              Bewakoof®
+            </p>
+            <p class="name">
+              Men's Black Feel Most Alive Graphic Printed T-shirt
+            </p>
+            <p class="price">
+              <span style="font-weight: bolder; color: black; font-size: 10px"
+                >₹499</span
+              >
+              <span
+                style="
+                  color: gray;
+                  text-decoration: line-through;
+                  font-size: 8px;
+                "
+                >₹1099</span
+              >
+              <span style="color: green; font-size: 8px">59% OFF</span>
+            </p>
+          </div>
+        </a>
+        <a href="">
+          <div class="box">
+            <img
+              src="./images/be-a-human-half-sleeve-t-shirt-navy-blue-343159-1655748189-1.webp"
+              alt=""
+            />
+            <span class="overlay">Buy 3 for 999</span>
+            <p
+              style="
+                font-weight: bolder;
+                padding: 5px 0px 0px 10px;
+                font-size: 12px;
+              "
+            >
+              Bewakoof®
+            </p>
+            <p class="name">Men's Blue Be A Human Typography T-shirt</p>
+            <p class="price">
+              <span style="font-weight: bolder; color: black; font-size: 10px"
+                >₹499</span
+              >
+              <span
+                style="
+                  color: gray;
+                  text-decoration: line-through;
+                  font-size: 8px;
+                "
+                >₹1099</span
+              >
+              <span style="color: green; font-size: 8px">59% OFF</span>
+            </p>
+          </div>
+        </a>
+        <a href="">
+          <div class="box">
+            <img
+              src="./images/men-s-white-absolutely-awesome-t-shirt-277973-1655814030-1.webp"
+              alt=""
+            />
+            <span class="overlay">Buy 3 for 999</span>
+            <p
+              style="
+                font-weight: bolder;
+                padding: 5px 0px 0px 10px;
+                font-size: 12px;
+              "
+            >
+              Bewakoof®
+            </p>
+            <p class="name">
+              Men's White Absolutely Awesome Graphic Printed T-shirt
+            </p>
+            <p class="price">
+              <span style="font-weight: bolder; color: black; font-size: 10px"
+                >₹499</span
+              >
+              <span
+                style="
+                  color: gray;
+                  text-decoration: line-through;
+                  font-size: 8px;
+                "
+                >₹1099</span
+              >
+              <span style="color: green; font-size: 8px">59% OFF</span>
+            </p>
+          </div>
+        </a>
+        <a href="">
+          <div class="box">
+            <img
+              src="./images/game-over-minimal-half-sleeve-t-shirt-navy-blue-305202-1655748497-1.webp"
+              alt=""
+            />
+            <span class="overlay">Buy 3 for 999</span>
+            <p
+              style="
+                font-weight: bolder;
+                padding: 5px 0px 0px 10px;
+                font-size: 12px;
+              "
+            >
+              Bewakoof®
+            </p>
+            <p class="name">Men's Blue Game Over Minimal Typography T-shirt</p>
+            <p class="price">
+              <span style="font-weight: bolder; color: black; font-size: 10px"
+                >₹499</span
+              >
+              <span
+                style="
+                  color: gray;
+                  text-decoration: line-through;
+                  font-size: 8px;
+                "
+                >₹1099</span
+              >
+              <span style="color: green; font-size: 8px">59% OFF</span>
+            </p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <p style="font-weight: bolder; margin: 20px 0px 0px 30px" id="ctb">
+      Categories to Bag
+    </p>
+    <section class="ctb">
+      <a href=""
+        ><img
+          src="./images/revamp-category-box-new-D-240x350-pyjamas-1687962200.webp"
+          alt=""
+      /></a>
+
+      <a href=""
+        ><img
+          src="./images/revamp-category-box-new-D-240x350-boxers-1687962202.webp"
+          alt=""
+      /></a>
+
+      <a href=""
+        ><img
+          src="./images/revamp-category-box-new-D-240x350-shirts-1687962201.webp"
+          alt=""
+      /></a>
+
+      <a href=""
+        ><img
+          src="./images/category-box-new-D-240x350-Women-jeans-1687955776.webp"
+          alt=""
+      /></a>
+
+      <a href=""
+        ><img
+          src="./images/category-box-new-D-240x350-printes-tees-w-1687962517.webp"
+          alt=""
+      /></a>
+
+      <a href=""
+        ><img
+          src="./images/revamp-category-box-new-D-240x350-shorts-1687962202.webp"
+          alt=""
+      /></a>
+    </section>
+    <p style="font-weight: bolder; margin: 20px 0px 0px 30px" id="bob">
+      Best of Bewakoof
+    </p>
+    <section class="bob">
+      <a href=""
+        ><img src="./images/3x4-cotton-pyjamas-refreshed-1689157942.jpg" alt=""
+      /></a>
+      <a href=""
+        ><img src="./images/3x4-urban-oversize-1689572491.jpg" alt=""
+      /></a>
+      <a href=""
+        ><img
+          src="./images/newbanner-3x4-Accessories-Backpacks-1688459820.jpg"
+          alt=""
+      /></a>
+      <a href=""
+        ><img src="./images/tie-and-dye-3x4-common-1689164867.jpg" alt=""
+      /></a>
+    </section>
+
+    <p style="font-weight: bolder; margin: 20px 0px 0px 30px" id="tc">
+      Top Accessories
+    </p>
+    <section class="tc">
+      <a href=""
+        ><img
+          src="./images/Revamp-Category-boxes-mobile-covers-1687766326.webp"
+          alt=""
+      /></a>
+      <a href=""
+        ><img
+          src="./images/Revamp-Category-boxes-sliders-1687766327.webp"
+          alt=""
+      /></a>
+      <a href=""
+        ><img src="./images/Revamp-Category-boxes-caps-1687766327.webp" alt=""
+      /></a>
+      <a href=""
+        ><img
+          src="./images/Revamp-Category-boxes-backpacks-1687766326.webp"
+          alt=""
+      /></a>
+    </section>
+
+    <p style="font-weight: bolder; margin: 20px 0px 0px 30px" id="thtbm">
+      Our Best Picks
+    </p>
+    <section class="thtbm">
+      <a href=""
+        ><img
+          src="./images/mid-size-hygiene-revamp-boxers-men-1689578777.jpg"
+          alt=""
+      /></a>
+      <a href=""
+        ><img
+          src="./images/mid-size-hygiene-revamp-tops--1--1689577912.webp"
+          alt=""
+      /></a>
+      <a href=""
+        ><img
+          src="./images/mid-size-hygiene-revamp-customise-model-new-1689142924.jpg"
+          alt=""
+      /></a>
+      <a href=""
+        ><img
+          src="./images/mid-size-hygiene-revamp-plus-common-02-1687436072.webp"
+          alt=""
+      /></a>
+    </section>
+    <img src="./images/tribe-strip-1687435569.gif" alt="" id="branding" />
+    <img
+      src="./images/Desktop-Strip-3-1672040129.webp"
+      alt=""
+      id="bigBranding"
+    />
+    <img src="./images/vote-static-1687766003.webp" alt="" id="branding" />
+    <img
+      src="./images/Desktop-Strip-3-1669022420.jpg"
+      alt=""
+      id="bigBranding"
+    />
+
+    <div class="bottomNav">
+      <a href=""
+        ><div>
+          <img src="./ic-home-tab-default-v1.svg" alt="" />
+          <p>Home</p>
+        </div></a
+      >
+      <a href=""
+        ><div>
+          <img src="./ic-web-tab-category-default-v1.svg" alt="" />
+          <p>Categories</p>
+        </div></a
+      >
+      <a href=""
+        ><div>
+          <img src="./ic-web-tab-explore-default-v1.svg" alt="" />
+          <p>Explore</p>
+        </div></a
+      >
+      <a href=""
+        ><div>
+          <img src="./ic-web-tab-profile-default-v1.svg" alt="" />
+          <p>Profile</p>
+        </div></a
+      >
+    </div>
+
+    <footer>
+      <a
+        href="https://play.google.com/store/apps/details?id=com.bewakoof.bewakoof&hl=en"
+        target="_blank"
+        ><section class="download">
+          <span>DOWNLAOAD THE APP</span>
+        </section></a
+      >
+      <section class="payment">
+        <span>100% secure payments | Free return and exchange</span>
+        <div><img src="./secure-payments-image.webp" alt="" /></div>
+      </section>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/8e2867f597.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
