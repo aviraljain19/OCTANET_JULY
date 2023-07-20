@@ -681,3 +681,9 @@ footer a {
     width:90%;
   }
 }
+
+@media(max-width:1000px){
+  .topBanner p{
+    font-size: 11px;
+  }
+}
