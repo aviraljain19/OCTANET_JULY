@@ -648,17 +648,36 @@ footer a {
   .categories {
     justify-content: flex-start;
   }
+  .tc{
+    display: flex;
+    width: 98%;
+  }
+
+  .tc img{
+    width:90%;
+  }
 }
 
-@media (min-width: 745px) {
-  .topBanner {
+@media(min-width:745px){
+  .topBanner{
     display: flex;
     justify-content: center;
   }
 }
 
-@media (max-width: 1050px) {
-  .topBanner p {
+@media(max-width:1050px){
+  .topBanner p{
     font-size: 15px;
+  }
+}
+
+@media(max-width:1455px){
+  .ctb{
+    display: flex;
+    width: 98%;
+  }
+
+  .ctb img{
+    width:90%;
   }
 }
