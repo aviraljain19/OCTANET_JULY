@@ -1,5 +1,5 @@
-let lati = 24.062754;
-let long = 77.449914;
+let lati = 22.715718;
+let long = 75.881698;
 
 const map = document.getElementById("map");
 if ("geolocation" in navigator) {
