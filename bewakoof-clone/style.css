@@ -687,3 +687,8 @@ footer a {
     font-size: 11px;
   }
 }
+
+.active{
+  display: none;
+}
+
